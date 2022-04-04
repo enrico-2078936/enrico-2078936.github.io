@@ -2,8 +2,37 @@
 <html>
     <head>
         <title>Hello World</title>
-        </head>
-        <body>
-            <h1>Hello World</h1>
-        </body>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <div>
+            <h2>Image Example</h2>
+            <img src="https://images.seattletimes.com/wp-content/uploads/2022/03/03252022_cherry-blossoms01_170152.jpg?d=780x576"
+            title="Cherry Blossoms at UW" style="width: 500px;"/>
+        </div>
+        <div>
+            <h2>Youtube Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/z4t1CC7-UFE?start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h2>HTML5 Video</h2>
+            <video width='500' controls autoplay>
+                <source src="./data/f10_exhaust.mp4" type="video/mp4"/>
+            </video>
+        </div>
+        <div>
+            <h2>HTML Audio</h2>
+            <audio controls autoplay>
+                <source src="./data/sample_audio.wav" type = "audio/wav"/>
+            </audio>
+        </div>
+        <div>
+            <h2>Object tag but not flash</h2>
+            <object data="./data/e70x5m.jpeg" width="500"></object>
+        </div>
+        <div>
+            <h2>RSS Feed</h2> 
+            <iframe id="rssfeed_frame" width="230" height="260" frameborder="0" src="https://feed.surfing-waves.com/php/rssfeed.php?rssfeed[url][0]=https%3A%2F%2Fwww.nasa.gov%2Frss%2Fdyn%2Fbreaking_news.rss&amp;&amp;rssfeed[frame_width]=230&amp;rssfeed[frame_height]=260&amp;rssfeed[scroll]=on&amp;rssfeed[scroll_step]=6&amp;rssfeed[scroll_bar]=off&amp;rssfeed[target]=_blank&amp;rssfeed[font_size]=12&amp;rssfeed[font_face]=&amp;rssfeed[border]=on&amp;rssfeed[css_url]=https%3A%2F%2Ffeed.surfing-waves.com%2Fcss%2Fstyle3a.css&amp;rssfeed[title]=on&amp;rssfeed[title_name]=&amp;rssfeed[title_bgcolor]=%233366ff&amp;rssfeed[title_color]=%23fff&amp;rssfeed[title_bgimage]=&amp;rssfeed[footer]=off&amp;rssfeed[footer_name]=rss%20feed&amp;rssfeed[footer_bgcolor]=%23fff&amp;rssfeed[footer_color]=%23333&amp;rssfeed[footer_bgimage]=&amp;rssfeed[item_bgcolor]=%23fff&amp;rssfeed[item_bgimage]=&amp;rssfeed[item_title_length]=50&amp;rssfeed[item_title_color]=%23666&amp;rssfeed[item_border_bottom]=on&amp;rssfeed[item_source_icon]=off&amp;rssfeed[item_date]=off&amp;rssfeed[item_description]=on&amp;rssfeed[item_description_length]=120&amp;rssfeed[item_description_color]=%23666&amp;rssfeed[item_description_link_color]=%23333&amp;rssfeed[item_description_tag]=off&amp;rssfeed[no_items]=0&amp;rssfeed[cache]= 3a6dc9e9643a917b9ef4e9622ef932e9" marginwidth="0" marginheight="0" vspace="0" hspace="0" scrolling="no" style="margin-left: 143px;"></iframe>
+        </div>
+    </body>
 </html>
